@@ -1,0 +1,106 @@
+/* general */
+
+.text_bold { 
+    font-weight: 1000;
+}
+
+.text_20px {
+    font-size: 20px;
+}
+
+.padding_24px_24px {
+    padding: 24px 24px;
+}
+
+.padding_20px {
+    padding: 20px 0px;
+}
+
+.margin_20px {
+    margin: 20px 0px;
+}
+
+.width_100 {
+    width: 100%;
+}
+/*  */
+.garden-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.garden-page .card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+}
+
+.button-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Air_humidity {
+    padding-bottom: 30px;
+}
+
+.auto_label {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.humidity_circle {
+    width: 380px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.2);
+    border-radius: 20px;
+}
+
+.moisture_circle {
+    width: 380px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.2);
+    border-radius: 20px;
+}
+
+.temperature_circle {
+    width: 380px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.2);
+    border-radius: 20px;
+}
+
+.light_circle {
+    width: 380px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.2);
+    border-radius: 20px;
+}
+
+.chart-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.button-auto {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.2);
+    border-radius: 20px;
+
+}
